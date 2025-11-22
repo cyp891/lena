@@ -1,8 +1,9 @@
 import Hero from "@/components/hero"
 import Pricing from "@/components/pricing"
-import BookingCalendar from "@/components/booking-calendar"
+//import BookingCalendar from "@/components/booking-calendar"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
+import CalendlyEmbed from "../components/calendly-embed"
 
 export default function Home() {
   return (
@@ -10,7 +11,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Pricing />
-      <BookingCalendar />
+      {/* <BookingCalendar /> */}
+      <CalendlyEmbed url="https://calendly.com/lenaelena" />
       <Footer />
     </main>
   )
